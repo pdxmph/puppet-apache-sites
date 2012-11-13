@@ -1,7 +1,7 @@
-Puppet Apache Module Type
+Puppet Apache Site Type
 =========================
 
-This type loads and unloads Apache modules for Debian and Ubuntu.
+This type enables and disables Apache sites for Debian and Ubuntu. 
 
 License: GPLv3
 
@@ -13,6 +13,6 @@ Requirements
 Usage
 -----
 
-    a2mod { "module":
+    a2site { "site_file_name":
       ensure => present,
     }
